@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Report Template</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="report.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row report-header">
+				<div class="col-md-9">
+					<h3>Health Assessment Results</h3>
+					<p class="lead">Fred Hersch, 43y Male, PAA-0001-2</p>
+					<p>House 22, Road 11, Dhaka 10090</p>
+				</div>
+				<div class="col-md-3">
+					<img src="ghru_logo.png" />
+				</div>
+		</div>
+
+		<div class="row report-element">
+			<div class="element-header">
+				<h3>Lifestyle</h3>
+			</div>
+			<div class="row col-sm-12">
+				<div class="row lifestyle">
+					<div class="col-sm">
+						<div class="float-left">
+							<i class="fas fa-smoking fa-2x"></i>
+						</div>
+						<div class="float-right">
+							<h4>Smoking</h4>
+							<span class="red">Yes</span>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="float-left">
+							<i class="fas fa-wine-glass fa-2x"></i>
+						</div>
+						<div class="float-right">
+							<h4>Alcohol</h4>
+							<span class="red">Moderate</span>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="float-left">
+							<i class="fas fa-apple-alt fa-2x"></i>
+						</div>
+						<div class="float-right">
+							<h4>Fruit Consumption</h4>
+							<span class="red">Below target</span>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="float-left">
+							<i class="fas fa-apple-alt fa-2x"></i>
+						</div>
+						<div class="float-right">
+							<h4>Vegetable Consumption</h4>
+							<span class="red">Below target</span>
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="pull-left">
+							<i class="fas fa-running fa-2x"></i>
+						</div>
+						<div class="pull-right">
+							<h4>Physical Activity</h4>
+							<span class="red">Below target</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="row col-sm-12">
+				<p class="advice"><span class="badge badge-secondary">Stop Smoking</span>&nbsp;<span class="badge badge-secondary">Reduce Alcohol Consumption</span>&nbsp;<span class="badge badge-secondary">Stop Smoking</span>&nbsp;<span class="badge badge-secondary">Eat more fruit and vegetables</span>&nbsp;<span class="badge badge-secondary">Aim for 30 minutes of moderate intensity exercise daily</span></p>
+			</div>-->
+		</div>
+		<div class="row">
+			<div class="col-sm report-element">
+				<h3 style="margin-left: 10px;">Body Composition</h3>
+				<table class="table table-borderless">
+					<tr>
+						<td>
+							<span class="title">BMI</span><br/>
+							<span class="val"><small>182cm | 80kg</small></span>
+						</td>
+						<td><span class="tfl value red">29.4</span><span class="tfl red" style="margin-left: 10px;">Overweight</span><br/><span class="target"><small>18.5-24.9 kg/m2</small></span></td>
+						<td class="scale-cell" style="width:35%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="title">Waist Circ</span><br/>
+						</td>
+						<td><span class="tfl value red">104 cm</span><span class="tfl red" style="margin-left: 10px;">High</span><br/><span class="target"><small>< 102cm (male)</small></span></td>
+						<td class="scale-cell" style="width:35%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="title">Body Fat</span><br/>
+						</td>
+						<td><span class="tfl value red">33%</span><span class="tfl red" style="margin-left: 10px;">High</span><br/><span class="target"><small>20-24.9%</small></span></td>
+						<td class="scale-cell" style="width:35%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm report-element" style="margin-left: 10px;">
+				<h3 style="margin-left: 10px;">Blood Pressure</h3>
+				<table class="table table-borderless">
+					<tr>
+						<td>
+							<span class="title">BP (Avg)</span><br/>
+						</td>
+						<td><span class="tfl value green">125/87</span><span class="tfl green" style="margin-left: 10px;">Normal</span><br/><span class="target"><small>&lt;140/90</small></span></td>
+					</tr>
+					<tr>
+						<td colspan="3" class="scale-cell" style="width:10%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-sm report-element" style="margin-left: 10px;">
+				<h3 style="margin-left: 10px;">Diabetes</h3>
+				<table class="table table-borderless">
+					<tr>
+						<td>
+							<span class="title">Blood Sugar</span><br/>
+						</td>
+						<td><span class="tfl value amber">6.0%</span><span class="tfl amber" style="margin-left: 10px;">At Risk</span><br/><span class="target"><small>4.0-5.6%</small></span></td>
+					</tr>
+					<tr>
+						<td colspan="3" class="scale-cell" style="width:10%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-sm report-element" style="margin-left: 10px;">
+				<h3 style="margin-left: 10px;">Cholesterol</h3>
+				<table class="table table-borderless">
+					<tr>
+						<td>
+							<span class="title">Total Cholesterol</span><br/>
+						</td>
+						<td><span class="tfl value amber">5.2 mmol/L</span><span class="tfl amber" style="margin-left: 10px;">High</span><br/><span class="target"><small>&lt; 5 mmol/L</small></span></td>
+					</tr>
+					<tr>
+						<td colspan="3" class="scale-cell" style="width:10%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm report-element">
+				<div class="element-header">
+					<h3>Cardiovascular Risk</h3>
+					<p class="lead">This is your calculated risk of having an event within the next 10 years. It is based on WHO Hearts Guidelines</p>
+				</div>
+				<table class="table table-borderless">
+					<tr>
+						<td>
+							<span class="title">10 year CVD risk</span><br/>
+						</td>
+						<td><span class="tfl value red">20-30%</span><span class="tfl red" style="margin-left: 10px;">High</span></td>
+						<td class="scale-cell" style="width:35%">
+							<div class="scale green">
+  							</div>
+  							<div class="scale amber">
+  							</div>
+  							<div class="scale red">
+  							</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm report-element">
+				<div class="element-header">
+					<h3>Recommendations</h3>
+					<p class="lead">These recommendations have been generated based on your CVD risk assessment</p>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						<div class="risk-factors">
+							<span class="badge badge-secondary">Stop Smoking</span>
+							<span class="badge badge-secondary">Reduce Alcohol Consumption</span>
+							<span class="badge badge-secondary">Weight Control</span>
+							<span class="badge badge-secondary">Improve Diet</span>
+							<span class="badge badge-secondary">Do more exercise</span>
+						</div>
+						<h6>Quit smoking</h6>
+						<h6>Control Weight</h6>
+						<h6>Regular Physical Activity</h6>
+							<ul>
+								<li>Aim for at least 30 minutes of moderate physical activity daily</li>
+								<li>Every bit counts, so build up gradually</li>
+							</ul>
+						<h6>Heart Healthy Diet</h6>
+						<ul>
+							<li><strong>Smoking cessation</strong>: Quit smoking</li>
+							<li><strong>Control Weight</strong>: Discuss ways to reduce weight through diet and exercise</li>
+							<li><strong>Heart Healthy Diet</strong>: Eat 5 serves of vegetables and 2 serves of </li>
+							<li><strong>Regular Physical Activity</strong>: Aim to do at least 30 minutes of moderate activity at least 5 days per week</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</body>
+</html>

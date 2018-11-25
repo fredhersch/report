@@ -1,0 +1,70 @@
+body {
+	background: #fff;
+}
+
+.report-header {
+	padding-top:  30px;
+}
+
+.report-element {
+	border:  1px solid #eff2f0;
+	border-radius: 5px;
+	padding:  5px;
+	margin-bottom:  10px;
+}
+
+.element-header {
+	margin-left:  10px;
+}
+
+.table td {
+	/*padding:  0.25rem;*/
+	vertical-align:  middle;
+}
+
+.table td.scale-cell {
+	/*vertical-align: middle;*/
+}
+
+.scale {
+	float:  left;
+	width:  30%;
+	margin-right:  5px;
+	height:  12px;
+}
+
+.scale.green {
+	background-color:  #129e31;
+}
+
+.scale.amber {
+	background-color:  #f4a742;
+}
+
+.scale.red {
+	background-color:  #f45342;
+}
+
+.title {
+	font-size:  1.4em;
+}
+
+.report-element td.value {
+	font-size:  1.5em;
+}
+
+.tfl {
+	font-size:  1.3em;
+}
+
+.red {
+	color:  #f45342;
+}
+
+.amber {
+	color:  #f4a742;
+}
+
+.green {
+	color:  #129e31;
+}
