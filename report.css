@@ -1,9 +1,26 @@
 body {
 	background: #fff;
+	font-size:  0.9em;
+}
+
+.table.risk-factors, .table.recommendations {
+	margin-top:  20px;
+}
+
+.table.risk-factors td {
+	font-size:  0.9em;
+}
+
+.table.recommendations td {
+	font-size:  0.9em;
+}
+
+td.title {
+	font-weight:  bold;
 }
 
 .report-header {
-	padding-top:  30px;
+	padding-top:  50px;
 }
 
 .report-element {
@@ -15,6 +32,7 @@ body {
 
 .element-header {
 	margin-left:  10px;
+	margin-top:  15px;
 }
 
 .table td {
@@ -67,4 +85,12 @@ body {
 
 .green {
 	color:  #129e31;
+}
+
+.recommendation {
+	background: #eee;
+	border-radius:  10px;
+	padding:  10px;
+	margin:  0 10px;
+	font-size:  0.9em;
 }

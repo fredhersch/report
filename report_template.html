@@ -18,67 +18,55 @@
 					<img src="ghru_logo.png" />
 				</div>
 		</div>
-
 		<div class="row report-element">
-			<div class="element-header">
-				<h3>Lifestyle</h3>
-			</div>
-			<div class="row col-sm-12">
-				<div class="row lifestyle">
-					<div class="col-sm">
-						<div class="float-left">
-							<i class="fas fa-smoking fa-2x"></i>
-						</div>
-						<div class="float-right">
-							<h4>Smoking</h4>
-							<span class="red">Yes</span>
-						</div>
-					</div>
-					<div class="col-sm">
-						<div class="float-left">
-							<i class="fas fa-wine-glass fa-2x"></i>
-						</div>
-						<div class="float-right">
-							<h4>Alcohol</h4>
-							<span class="red">Moderate</span>
-						</div>
-					</div>
-					<div class="col-sm">
-						<div class="float-left">
-							<i class="fas fa-apple-alt fa-2x"></i>
-						</div>
-						<div class="float-right">
-							<h4>Fruit Consumption</h4>
-							<span class="red">Below target</span>
-						</div>
-					</div>
-					<div class="col-sm">
-						<div class="float-left">
-							<i class="fas fa-apple-alt fa-2x"></i>
-						</div>
-						<div class="float-right">
-							<h4>Vegetable Consumption</h4>
-							<span class="red">Below target</span>
-						</div>
-					</div>
-					<div class="col-sm">
-						<div class="pull-left">
-							<i class="fas fa-running fa-2x"></i>
-						</div>
-						<div class="pull-right">
-							<h4>Physical Activity</h4>
-							<span class="red">Below target</span>
-						</div>
-					</div>
+			<div class="col-sm-4">
+				<div class="element-header">
+					<h3>Lifestyle Risk Factors</h3>
 				</div>
+				<table class="table table-striped risk-factors">
+					<!--<thead>
+						<tr>
+							<th>Risk factor</th>
+							<th>Value</th>
+							<th></th>
+						</tr>
+					</thead>-->
+					<tbody>
+						<tr>
+							<td class="title">Smoker</td>
+							<td>Yes / No</td>
+							<td>High risk</td>
+						</tr>
+						<tr>
+							<td class="title">Alcohol Consumption</td>
+							<td>Moderate</td>
+							<td>At risk</td>
+						</tr>
+						<tr>
+							<td class="title">Fruit intake</td>
+							<td>8 serves / week</td>
+							<td>Below target</td>
+						</tr>
+						<tr>
+							<td class="title">Vegetable intake</td>
+							<td>22 serves / week</td>
+							<td>Adequate</td>
+						</tr>
+						<tr>
+							<td class="title">Physical Activity</td>
+							<td>100 minutes / week</td>
+							<td>Below target</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 			<!--<div class="row col-sm-12">
 				<p class="advice"><span class="badge badge-secondary">Stop Smoking</span>&nbsp;<span class="badge badge-secondary">Reduce Alcohol Consumption</span>&nbsp;<span class="badge badge-secondary">Stop Smoking</span>&nbsp;<span class="badge badge-secondary">Eat more fruit and vegetables</span>&nbsp;<span class="badge badge-secondary">Aim for 30 minutes of moderate intensity exercise daily</span></p>
 			</div>-->
-		</div>
-		<div class="row">
-			<div class="col-sm report-element">
-				<h3 style="margin-left: 10px;">Body Composition</h3>
+			<div class="col-sm-8">
+				<div class="element-header">
+					<h3>Body Composition</h3>
+				</div>
 				<table class="table table-borderless">
 					<tr>
 						<td>
@@ -124,17 +112,25 @@
 						</td>
 					</tr>
 				</table>
+				<div class="recommendation">
+					<p>Weight control and address risk factors. See Lifestyle modification advice recommendations</p>
+				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm report-element" style="margin-left: 10px;">
-				<h3 style="margin-left: 10px;">Blood Pressure</h3>
+			<div class="col-sm-4 report-element">
+				<div class="element-header">
+					<h3>Blood Pressure</h3>
+				</div>
 				<table class="table table-borderless">
 					<tr>
 						<td>
 							<span class="title">BP (Avg)</span><br/>
 						</td>
-						<td><span class="tfl value green">125/87</span><span class="tfl green" style="margin-left: 10px;">Normal</span><br/><span class="target"><small>&lt;140/90</small></span></td>
+						<td><span class="tfl value green">125/87</span><span class="tfl green" style="margin-left: 10px;">Normal</span></td>
+					</tr>
+					<tr>
+						<td colspan="3"><span class="target">Blood Pressure Target: &lt;140/90</span></td>
 					</tr>
 					<tr>
 						<td colspan="3" class="scale-cell" style="width:10%">
@@ -147,15 +143,23 @@
 						</td>
 					</tr>
 				</table>
+				<div class="recommendation">
+					<p>Blood pressure in the normal range. Follow general lifestyle advice</p>
+				</div>
 			</div>
 			<div class="col-sm report-element" style="margin-left: 10px;">
-				<h3 style="margin-left: 10px;">Diabetes</h3>
+				<div class="element-header">
+					<h3>Diabetes</h3>
+				</div>
 				<table class="table table-borderless">
 					<tr>
 						<td>
 							<span class="title">Blood Sugar</span><br/>
 						</td>
-						<td><span class="tfl value amber">6.0%</span><span class="tfl amber" style="margin-left: 10px;">At Risk</span><br/><span class="target"><small>4.0-5.6%</small></span></td>
+						<td><span class="tfl value amber">6.0%</span><span class="tfl amber" style="margin-left: 10px;">At Risk</span></td>
+					</tr>
+					<tr>
+						<td colspan="3"><span class="target">Blood Sugar Target: 4.0% - 6.5%</span></td>
 					</tr>
 					<tr>
 						<td colspan="3" class="scale-cell" style="width:10%">
@@ -168,15 +172,23 @@
 						</td>
 					</tr>
 				</table>
+				<div class="recommendation">
+					<p>Blood sugar indicates pre-diabetes. Talk to the doctor about follow up.</p>
+				</div>
 			</div>
 			<div class="col-sm report-element" style="margin-left: 10px;">
-				<h3 style="margin-left: 10px;">Cholesterol</h3>
+				<div class="element-header">
+					<h3>Cholesterol</h3>
+				</div>
 				<table class="table table-borderless">
 					<tr>
 						<td>
-							<span class="title">Total Cholesterol</span><br/>
+							<span class="title">TChol</span><br/>
 						</td>
-						<td><span class="tfl value amber">5.2 mmol/L</span><span class="tfl amber" style="margin-left: 10px;">High</span><br/><span class="target"><small>&lt; 5 mmol/L</small></span></td>
+						<td><span class="tfl value amber">5.2 mmol/L</span><span class="tfl amber" style="margin-left: 10px;">High</span></td>
+					</tr>
+					<tr>
+						<td colspan="3"><span class="target">Total Cholesterol Target: &lt;5.2 mmol/l</span></td>
 					</tr>
 					<tr>
 						<td colspan="3" class="scale-cell" style="width:10%">
@@ -189,64 +201,101 @@
 						</td>
 					</tr>
 				</table>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm report-element">
-				<div class="element-header">
-					<h3>Cardiovascular Risk</h3>
-					<p class="lead">This is your calculated risk of having an event within the next 10 years. It is based on WHO Hearts Guidelines</p>
+				<div class="recommendation">
+					<p>Maintain a heart healthy diet and manage based on CVD risk</p>
 				</div>
-				<table class="table table-borderless">
-					<tr>
-						<td>
-							<span class="title">10 year CVD risk</span><br/>
-						</td>
-						<td><span class="tfl value red">20-30%</span><span class="tfl red" style="margin-left: 10px;">High</span></td>
-						<td class="scale-cell" style="width:35%">
-							<div class="scale green">
-  							</div>
-  							<div class="scale amber">
-  							</div>
-  							<div class="scale red">
-  							</div>
-						</td>
-					</tr>
-				</table>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm report-element">
-				<div class="element-header">
-					<h3>Recommendations</h3>
-					<p class="lead">These recommendations have been generated based on your CVD risk assessment</p>
+			<div class="report-element col-md-12">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="element-header">
+							<h3>Cardiovascular Risk</h3>
+							<p class="lead">This is your calculated risk of having an event within the next 10 years. It is based on WHO Hearts Guidelines</p>
+						</div>
+					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm">
-						<div class="risk-factors">
-							<span class="badge badge-secondary">Stop Smoking</span>
-							<span class="badge badge-secondary">Reduce Alcohol Consumption</span>
-							<span class="badge badge-secondary">Weight Control</span>
-							<span class="badge badge-secondary">Improve Diet</span>
-							<span class="badge badge-secondary">Do more exercise</span>
-						</div>
-						<h6>Quit smoking</h6>
-						<h6>Control Weight</h6>
-						<h6>Regular Physical Activity</h6>
-							<ul>
-								<li>Aim for at least 30 minutes of moderate physical activity daily</li>
-								<li>Every bit counts, so build up gradually</li>
-							</ul>
-						<h6>Heart Healthy Diet</h6>
-						<ul>
-							<li><strong>Smoking cessation</strong>: Quit smoking</li>
-							<li><strong>Control Weight</strong>: Discuss ways to reduce weight through diet and exercise</li>
-							<li><strong>Heart Healthy Diet</strong>: Eat 5 serves of vegetables and 2 serves of </li>
-							<li><strong>Regular Physical Activity</strong>: Aim to do at least 30 minutes of moderate activity at least 5 days per week</li>
-						</ul>
+					<div class="col-md-6">
+						<table class="table table-borderless">
+							<tr>
+								<td>
+									<span class="title">CVD risk</span><br/>
+								</td>
+								<td><span class="tfl value red">20-30%</span><span class="tfl red" style="margin-left: 10px;">High</span></td>
+								<td class="scale-cell" style="width:35%">
+									<div class="scale green">
+		  							</div>
+		  							<div class="scale amber">
+		  							</div>
+		  							<div class="scale red">
+		  							</div>
+								</td>
+							</tr>
+						</table>
+					</div>
+					<div class="col-md-6">
+						<div class="recommendation">Your risk is elevated. See recommendations and make sure to follow up with a local doctor</div>
 					</div>
 				</div>
 			</div>
+		</div>
+		<div class="row">
+			<div class="report-element col-md-12">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="element-header">
+							<h3>Your Recommendations</h3>
+							<div class="risk-factors">
+								<span class="badge badge-danger">Stop Smoking</span>
+								<span class="badge badge-warning">Reduce Alcohol Consumption</span>
+								<span class="badge badge-warning">Weight Control</span>
+								<span class="badge badge-info">Improve Diet</span>
+								<span class="badge badge-info">Do more exercise</span>
+							</div>
+						</div>
+						<table class="table table-borderless recommendations">
+							<tbody>
+								<tr>
+									<td class="title">Smoking Cessation</td>
+									<td class="message">Quitting is the best thing you can do</td>
+								</tr>
+								<tr>
+									<td class="title">Reduce Alcohol Consumption</td>
+									<td class="message">Try to limit alcohol consumption to 2 drinks / day with at least 2 off days</td>
+								</tr>
+								<tr>
+									<td class="title">Control Weight</td>
+									<td class="message">Focus on diet and exercise to get your weight under control. Avoid fad diets. Follow the general advice given here.</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-8">
+						<div class="element-header">
+							<h3>Diet and Exercise Advice</h3>
+						</div>
+						<div class="recommendation">
+							<h5>Nutrition</h5>
+							<ul>
+								<li>Eat a diet that is rich in fruit and vegetables. Aim for 5 serves of vegetables and 2 servings of fruit daily</li>
+								<li>Reduce the amount of processed foods</li>
+								<li>Limit intake of free sugars to less than 6 teaspoons per day.</li>
+								<li>Avoid deep fried foods and fast foods</li>
+								<li>Replace deep frying with grilling or baking</li>
+								<li>Eat fish and lean cuts of meat</li>
+							</ul>
+							<h5>Physical Activity</h5>
+							<p>Aim for 150 minutes per week of moderate intensity exercise. Remember every little bit counts. So move more! Examples of moderate intensity exercise include</p>
+							<ul>
+								<li>Brisk walking, running, jogging</li>
+								<li>[Add relevant examples here]
+							</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
