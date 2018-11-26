@@ -10,12 +10,12 @@
 	<div class="container">
 		<div class="row report-header">
 				<div class="col-md-9">
-					<h2>Health Assessment Results</h2>
-					<p class="participant">Fred Hersch, 43y Male, PAA-0001-2<br/>
-					House 22, Road 11, Dhaka 10090</p>
+					<h3>Health Assessment Results</h3>
+					<p class="lead">Fred Hersch, 43y Male, PAA-0001-2</p>
+					<p>House 22, Road 11, Dhaka 10090</p>
 				</div>
-				<div class="col-md-3 text-right">
-					<img src="ghru_logo.png" height="100px" />
+				<div class="col-md-3">
+					<img src="ghru_logo.png" />
 				</div>
 		</div>
 		<div class="row report-element">
@@ -67,7 +67,7 @@
 				<div class="element-header">
 					<h3>Body Composition</h3>
 				</div>
-				<table class="table table-striped">
+				<table class="table table-borderless">
 					<tr>
 						<td>
 							<span class="title">BMI</span><br/>
@@ -101,7 +101,7 @@
 				<div class="element-header">
 					<h3>Blood Pressure</h3>
 				</div>
-				<table class="table table-borderless element-data">
+				<table class="table table-borderless">
 					<tr>
 						<td>
 							<span class="title">BP (Avg)</span><br/>
@@ -120,7 +120,7 @@
 				<div class="element-header">
 					<h3>Diabetes</h3>
 				</div>
-				<table class="table table-borderless element-data">
+				<table class="table table-borderless">
 					<tr>
 						<td>
 							<span class="title">Blood Sugar</span><br/>
@@ -139,7 +139,7 @@
 				<div class="element-header">
 					<h3>Cholesterol</h3>
 				</div>
-				<table class="table table-borderless element-data">
+				<table class="table table-borderless">
 					<tr>
 						<td>
 							<span class="title">TChol</span><br/>
@@ -167,14 +167,19 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12">
-						<table class="table table-borderless element-data">
+						<!--<table class="table table-borderless">
 							<tr>
 								<td>
 									<span class="title">10 year CVD risk</span>
 								</td>
 								<td><span class="tfl red">20-30%</span></td>
 								<td><span class="tfl red">High</span></td>
-								<td><strong>Your risk is elevated</strong>. See recommendations and make sure to follow up with a local doctor</td>
+								<td><strong>Your risk is elevated</strong>. Make sure to follow up with a local doctor to discuss your results</td>
+							</tr>
+						</table>-->
+						<table class="table table-borderless" style="margin-top: 0;">
+							<tr>
+								<td><strong>Your CVD risk was not calculated due to your age.</strong> CVD Risk Assessment is only for age > 40. Recommendations are based on individual risk factors</td>
 							</tr>
 						</table>
 					</div>
@@ -184,7 +189,7 @@
 		<div class="row">
 			<div class="report-element col-md-12">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-4">
 						<div class="element-header">
 							<h3>Your Recommendations</h3>
 							<div class="risk-factors">
@@ -212,7 +217,7 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-8">
 						<div class="element-header">
 							<h3>Diet and Exercise Advice</h3>
 						</div>
@@ -241,8 +246,11 @@
 		  </div>
 		</div>
 		<div class="row footer">
-			<div class="col-sm-12">
-				<p class="text-left"><small>Generated on 25th November 2018 by [Institution Name] as part of the nGHRU Study. If you have any questions, contact the study team</small></p>
+			<div class="col-sm">
+				<p class="text-left">Generated on 27th November 2018</p>
+			</div>
+			<div class="col-sm">
+				<p class="text-right">Global Health Research Unit</p>
 			</div>
 		</div>
 	</div>

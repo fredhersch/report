@@ -1,10 +1,27 @@
 body {
 	background: #fff;
-	font-size:  0.9em;
+}
+
+h2 {
+	font-size:  1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	font-size:  1.3em;
+	font-weight: bold;
 }
 
 .table.risk-factors, .table.recommendations {
 	margin-top:  20px;
+}
+
+.table.element-data {
+	margin-top:  -15px;
+}
+
+.table.element-data td {
+	padding-bottom:  0rem;
 }
 
 .table.risk-factors td {
@@ -15,12 +32,13 @@ body {
 	font-size:  0.9em;
 }
 
-td.title {
+td.title, span.title {
+	font-size:  1.1em;
 	font-weight:  bold;
 }
 
 .report-header {
-	padding-top:  50px;
+	padding-top:  10px;
 }
 
 .report-element {
@@ -31,8 +49,8 @@ td.title {
 }
 
 .element-header {
-	margin-left:  10px;
-	margin-top:  15px;
+	margin-left:  12px;
+	margin-top:  10px;
 }
 
 .table td {
@@ -64,11 +82,11 @@ td.title {
 }
 
 .title {
-	font-size:  1.4em;
+	font-size:  1.2em;
 }
 
 .report-element td.value {
-	font-size:  1.5em;
+	font-size:  1.3em;
 }
 
 .tfl {
@@ -87,10 +105,15 @@ td.title {
 	color:  #129e31;
 }
 
+.highlighted {
+	background:  #eff2f0;
+	border-radius:  5px;
+}
+
 .recommendation {
-	background: #eee;
+	background: #f7f9f7;
 	border-radius:  10px;
-	padding:  10px;
+	padding:  5px 10px;
 	margin:  0 10px;
 	font-size:  0.9em;
 }
