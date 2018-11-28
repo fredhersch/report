@@ -9,7 +9,6 @@ h2 {
 
 h3 {
 	font-size:  1.3em;
-	font-weight: bold;
 }
 
 .table.risk-factors, .table.recommendations {
@@ -33,7 +32,7 @@ h3 {
 }
 
 td.title, span.title {
-	font-size:  1.1em;
+	font-size:  1.0em;
 	font-weight:  bold;
 }
 
@@ -62,6 +61,11 @@ td.title, span.title {
 	/*vertical-align: middle;*/
 }
 
+td.target {
+	font-size:  0.8em;
+
+}
+
 .scale {
 	float:  left;
 	width:  30%;
@@ -82,15 +86,15 @@ td.title, span.title {
 }
 
 .title {
-	font-size:  1.2em;
+	font-size:  1.1em;
 }
 
 .report-element td.value {
-	font-size:  1.3em;
+	font-size:  1.2em;
 }
 
 .tfl {
-	font-size:  1.3em;
+	font-size:  1.2em;
 }
 
 .red {
@@ -101,7 +105,7 @@ td.title, span.title {
 	color:  #f4a742;
 }
 
-.green {
+.green, .GREEN {
 	color:  #129e31;
 }
 
@@ -111,9 +115,14 @@ td.title, span.title {
 }
 
 .recommendation {
-	background: #f7f9f7;
+	background: #fff9f2;
 	border-radius:  10px;
-	padding:  5px 10px;
-	margin:  0 10px;
+	padding:  7px 7px 2px 7px;
+	margin:  0 5px;
 	font-size:  0.9em;
+	vertical-align: middle;
+}
+
+.recommendation.light {
+	background:  #fff;
 }
